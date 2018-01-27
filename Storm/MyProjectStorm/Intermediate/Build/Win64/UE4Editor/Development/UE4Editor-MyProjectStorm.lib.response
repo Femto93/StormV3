@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyProjectStorm.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Meebs\source\repos\Storm\MyProjectStorm\Intermediate\Build\Win64\UE4Editor\Development\MyProjectStorm\MyProjectStorm.cpp.obj"
+"C:\Users\Meebs\source\repos\Storm\MyProjectStorm\Intermediate\Build\Win64\UE4Editor\Development\MyProjectStorm\MyProjectStormGameModeBase.cpp.obj"
+"C:\Users\Meebs\source\repos\Storm\MyProjectStorm\Intermediate\Build\Win64\UE4Editor\Development\MyProjectStorm\MyProjectStorm.init.gen.cpp.obj"
+"C:\Users\Meebs\source\repos\Storm\MyProjectStorm\Intermediate\Build\Win64\UE4Editor\Development\MyProjectStorm\MyProjectStormGameModeBase.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\MyProjectStorm\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Meebs\source\repos\Storm\MyProjectStorm\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProjectStorm.lib"

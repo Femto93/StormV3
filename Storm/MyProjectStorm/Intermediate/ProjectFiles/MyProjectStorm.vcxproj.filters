@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MyProjectStorm.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{CB38716C-8391-4344-AF18-821361F4397D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyProjectStorm.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MyProjectStormEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A6F8D874-265C-47C3-96D9-FF75467DE4D6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MyProjectStorm">
+			<UniqueIdentifier>{CBE103D4-0224-49B2-AB02-B9E5560DA4B2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyProjectStorm\MyProjectStorm.Build.cs">
+			<Filter>Source\MyProjectStorm</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MyProjectStorm\MyProjectStorm.cpp">
+			<Filter>Source\MyProjectStorm</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProjectStorm\MyProjectStorm.h">
+			<Filter>Source\MyProjectStorm</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MyProjectStorm\MyProjectStormGameModeBase.cpp">
+			<Filter>Source\MyProjectStorm</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProjectStorm\MyProjectStormGameModeBase.h">
+			<Filter>Source\MyProjectStorm</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
